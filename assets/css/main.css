@@ -2,8 +2,6 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
 
 /*
-	Landed by HTML5 UP
-	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
@@ -234,7 +232,9 @@ input, select, textarea {
 	.align-right {
 		text-align: right;
 	}
-
+	.informacoes{
+		list-style: none;
+	}
 /* Loader */
 
 	@-moz-keyframes spinner-show {
@@ -2470,15 +2470,16 @@ input, select, textarea {
 			}
 
 		.icon.major {
-			background: #272833;
-			border-radius: 100%;
+	
 			cursor: default;
 			display: inline-block;
-			height: 6em;
+			height: auto;
+			max-height: 200px;
 			line-height: 5.65em;
 			margin: 0 0 2em 0;
 			text-align: center;
-			width: 6em;
+			width: 100%;
+			max-width: 250px;
 		}
 
 			.icon.major:before {
@@ -3197,7 +3198,7 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		padding: 6em 0 4em 0;
+		/* padding: 6em 0 4em 0; */
 	}
 
 		.wrapper.style2 {
@@ -3396,7 +3397,7 @@ input, select, textarea {
 		}
 
 		#header nav {
-			position: absolute;
+			position: fixed;
 			right: 1em;
 			top: 0;
 		}
