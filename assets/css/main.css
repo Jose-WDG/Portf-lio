@@ -235,7 +235,7 @@ input, select, textarea {
 	.informacoes{
 		list-style: none;
 	}
-
+	
 	.img-footer{
 		height: 150px;
 		width: 150px;
@@ -3107,7 +3107,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 			-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 			transition: transform 1s ease, opacity 1s ease;
-			background: rgba(23, 24, 32, 0.95);
+			/* background: rgba(23, 24, 32, 0.95); */
 			border-style: solid;
 			opacity: 1;
 			position: absolute;
@@ -4134,5 +4134,11 @@ input, select, textarea {
 						margin: 0;
 						padding: 0;
 					}
-
+					.informacoes{
+						text-align: left;
+						padding: 0;
+					}
+					.sobre-txt{
+						text-align: left;
+					}
 	}
